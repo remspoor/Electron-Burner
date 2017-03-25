@@ -1,5 +1,5 @@
 # Electron-Burner
-Burn electrons to discharge LiPo batteries to storage level
+Burn electrons to discharge LiPo batteries to storage level.
 
 
 Depends on these libraries:
@@ -9,8 +9,13 @@ Depends on these libraries:
 
 Components used:
 ----------------
-- ILI9481 3.2" 480x320 LCD display (https://www.aliexpress.com/item/Free-shipping-3-2-inch-TFT-LCD-screen-module-Ultra-HD-320X480-for-Arduino-MEGA-2560/32283720984.html)
+- Arduino MEGA 2560
+- ILI9481 3.2" 480x320 LCD display
+  - http://www.tinytronics.nl/shop/Display/3.2-inch-TFT-Display-320*480-pixels---Mega-Compatible
 - IRL3705 Power MOSFET
+- Rotary encoder with RGB leds
+  - https://www.hobbyelectronica.nl/product/rotary-encoder-verlicht-rgb/
+  - https://www.sparkfun.com/products/10982
 - ..... (more)
 
 

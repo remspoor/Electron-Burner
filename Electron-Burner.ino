@@ -1,5 +1,5 @@
 //#include <Boards.h>
-#include <Firmata.h>
+//#include <Firmata.h>
 
 #include <avr/wdt.h>
 #include <TFT_HX8357.h>
@@ -39,7 +39,7 @@ uint32_t Time1000ms = 0;
 #define CEL_STOP_MIN    360                       // 3.6 V
 
 #define MAX_CONV_SPANNIG  340                     // 34.0 V
-#define MAX_CONV_STROOM   99                     // 10.0 A
+#define MAX_CONV_STROOM   100                     // 10.0 A
 #define MAX_ADC_STROOM_COUNTS 409
 #define MIN_CEL_VOLTAGE_OK  30                    // 3V Minimum cel voltage
 

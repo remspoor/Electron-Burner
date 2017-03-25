@@ -15,8 +15,8 @@ Poormans schematic:
                       | | 5kOhm
                       | |
                       | |<----- ADC input
-                      |+|
-                       |
+                      |+|       CH1: Pin A0-A5
+                       |        CH2: Pin A7-A12
                        |
                       --- GND
 
@@ -25,30 +25,30 @@ Poormans schematic:
 
 Output:
 
-                        +-----------------O Positive battery lead
-                        |
-                        |
-                       \ /
-                        X  Light bulp
-                       / \
-                        |
-                        |
-           100Ohm       |
-           -----      |-+
-        ---+   +----->|    IRL3705
-           -----      |-+
-                        |
-                        |
-                   +----+----+
-                   |         |
-                  |+|       |+|
-                  | |       | | 0.2Ohm/5W
-                  | |       | |
-  ADC input ----->| |       | |
-                  |+|       |+|
-                   |         |
-                   |         |     +------O Negative battery lead
-                   |         |     |
-                  ---  GND  ---   --- GND
+                            +-----------------O Positive battery lead
+                            |
+                            |
+                           \ /
+                            X  Light bulp
+                           / \
+                            |
+                            |
+               100Ohm       |
+               -----      |-+
+    Dig out ---+   +----->|    IRL3705
+               -----      |-+
+    CH1: Pin D5             |
+    CH2: Pin D4             |
+                       +----+----+
+                       |         |
+                      |+|       |+|
+                      | |       | | 0.2Ohm/5W
+                      | |       | |
+      ADC input ----->| |       | |
+      CH1: Pin A6     |+|       |+|
+      CH2: Pin A13     |         |
+                       |         |     +------O Negative battery lead
+                       |         |     |
+                      ---  GND  ---   --- GND
 
       (Needed 2x)
