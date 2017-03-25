@@ -14,62 +14,7 @@ Components used:
 - ..... (more)
 
 
-Poormans schematic:
--------------------
-
-`  Balancer cables >----+`
-`                       |`
-`                       |`
-`                      |+|`
-`                      | |`
-`                      | | 27kOhm`
-`                      | |`
-`                      |+|`
-`                       |`
-`                       |`
-`                      |+|`
-`                      | | 5kOhm`
-`                      | |`
-`                      | |<----- ADC input`
-`                      |+|`
-`                       |`
-`                       |`
-`                      --- GND`
-
-      (Needed 12x)
-
-
-Output:
-
-                        +-----------------O Positive battery lead
-                        |
-                        |
-                       \ /
-                        X  Light bulp
-                       / \
-                        |
-                        |
-           100Ohm       |
-           -----      |-+
-        ---+   +----->|    IRL3705
-           -----      |-+
-                        |
-                        |
-                   +----+----+
-                   |         |
-                  |+|       |+|
-                  | |       | | 0.2Ohm/5W
-                  | |       | |
-  ADC input ----->| |       | |
-                  |+|       |+|
-                   |         |
-                   |         |     +------O Negative battery lead
-                   |         |     |
-                  ---  GND  ---   --- GND
-
-      (Needed 2x)
-
-
-
-
-
+Schematic:
+----------
+There is no complete schematic right now.
+For small pieces of the schematic find an ASCII art poormans schematic in doc/schematic.txt
